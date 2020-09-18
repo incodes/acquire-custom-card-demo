@@ -1,0 +1,29 @@
+{
+  "name": "Acquire-Custom-Card-Demo-Api",
+  "version": "1.0.0",
+  "description": "Demo API for Acquire Custom Card Integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "inzmam",
+  "license": "ISC",
+  "dependencies": {
+    "@line/bot-sdk": "^6.8.4",
+    "@slack/events-api": "^2.3.1",
+    "@slack/web-api": "^5.7.0",
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "botbuilder": "^4.7.2",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-xml-bodyparser": "^0.3.0",
+    "form-data": "^3.0.0",
+    "formidable": "^1.2.2",
+    "query-string": "^6.13.1",
+    "request": "^2.88.2",
+    "twilio": "^3.39.5",
+    "viber-bot": "^1.0.16"
+  }
+}
