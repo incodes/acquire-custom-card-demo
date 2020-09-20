@@ -17,4 +17,20 @@
 
 
 
-~~~~
+**Settings Example**
+
+* Your Custom template Url.
+* We support Bearer and Basic Authorization. 
+
+```
+//enter url
+https://example.com/customer?field={{Contact.email}}
+
+// enter Bearer auth
+Bearer <token>
+
+// or encrypt user:password and enter basic auth
+key =  Base64Encoded(<user:password>)
+Basic <key>
+```
+
